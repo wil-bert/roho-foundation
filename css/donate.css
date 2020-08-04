@@ -1,0 +1,38 @@
+.navigation-link {
+	display: block;
+	position: relative;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+li {
+    display: flex;
+    float: left;
+  }
+ 
+.navigation-link:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	border-bottom: solid 2px;
+}
+
+.navigation-link:before {
+	left: 0;
+}
+
+.navigation-link:hover {
+	color: #009688;
+}
+
+.navigation-link:hover:before {
+	width: 100%;
+}
+
+.navigation-link:before {
+	-webkit-transition: width .2s ease-in-out;
+	transition: width .2s ease-in-out;
+}
