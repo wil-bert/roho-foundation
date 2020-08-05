@@ -82,3 +82,15 @@ a:active {
 h1, h2{
 	color: magenta;
 }
+.container{
+	background-color: lightgrey;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.row{
+	text-align: center;
+}
