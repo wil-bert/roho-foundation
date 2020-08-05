@@ -80,10 +80,176 @@ a:active {
 	height: 20%;
 }
 h1, h2{
-	color: magenta;
+    color: magenta;
 }
 
-/*footer*/
+  p {
+    font-family: sans-serif;
+    font-size: 30px;
+  }
+  li{
+    font-size: 25px;
+  }
+  .welcome_sec h2 {
+
+	font-family: 'Raleway', sans-serif;
+
+	font-weight: 800;
+
+	font-size: 1.625em;
+
+	color: #323232;
+
+	text-transform: uppercase;
+
+	position: relative;
+
+	text-align: right;
+
+	line-height: 32px;
+
+	padding-right: 25px;
+	text-align:  center;
+
+}
+
+
+
+.welcome_sec h2:before {
+
+	content: '';
+
+	width: 4px;
+
+	height:100%;
+
+	background: #12a0b1;
+
+	position: absolute;
+
+	letter-spacing: 1px;
+
+    right: -16px;
+
+    top: 4px;
+
+}
+
+.welcome_sec .welcome_heading p{
+
+	font-family: 'Open Sans', sans-serif;
+
+	font-style: italic;
+
+	font-size: 1em;
+
+	color: #898989;
+
+	padding-left: 30px;
+
+    padding-top: 16px;
+
+    line-height: 26px;
+
+}
+
+.welcome_item {
+
+	position: relative;	
+
+}
+
+.welcome_details {
+
+	margin-top:80px;
+
+}
+
+.welcome_details img {
+
+	background: #fff;
+
+	padding:8px;
+
+	position: absolute;
+
+	z-index: 1;
+	top: 14px;
+
+}
+
+.welcome_details .welcome_info {
+	position: relative;
+	width:77%;
+	background: #fdfdfd;
+	border: 1px solid #e6e6e6;
+	margin-left: 140px;
+    padding-top: 7px;
+    padding-bottom: 24px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+
+}
+
+.welcome_details h3 {
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.25em;
+	color:#323232;
+	padding-left: 66px;
+
+}
+
+.welcome_details h3:before {
+
+	content: '';
+	width:45px;
+	height:3px;
+	position: absolute;
+	top: 61px;
+}
+
+.welcome_details p {
+
+	font-family: 'Open Sans', sans-serif;
+	color: #898989;
+	padding-left: 66px;
+	padding-right: 41px;
+    padding-top: 13px;
+
+}
+
+.welcome_item_bottom {
+
+	margin-top:29px;
+
+}
+
+.welcome_details .welcome_info:hover {
+
+	background: #0b9e72;
+}
+
+.welcome_details .welcome_info:hover h3{
+
+	color: #fff;
+}
+
+.welcome_details .welcome_info:hover p {
+
+	color: #e4e8e8;
+
+}
+.one{
+    position: relative;
+    height: 40%;
+    width: 40%;
+}
+
+/* Footer*/
+
 footer {
 
 	font-family: 'Open Sans', sans-serif;
@@ -323,16 +489,3 @@ footer .top_footer .part4 .gallery {
 	margin-right: -5px;
 
 }
-.container{
-	background-color: lightgrey;
-	height: 100vh;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-.row{
-	text-align: center;
-}
-
