@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="css/contact.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
     <title>ROHO FOUNDATION</title>
 </head>
 <body>
@@ -50,6 +52,31 @@
             </div>
         </nav>
     </header>
+    <div class="container">
+        <div class="intro">
+            <h1 class="text-center text bold">Contact Us</h1>
+            <h2 class="text-center text bold">Reach out, leave a message and lets communicate.</h2>
+        </div>
+        <div>
+            <p class="text-center text bold">Call Us:0701293748</p>
+            <p class="text-center text bold">Email:Rohofoundation@gmail.com</p>
+            <p class="text-center text bold">WhattsApp:0701293748</p>
+        </div>
+        <div class="contacts">
+            <h>CONTACT US</h><br><br>
+            <form onsubmit="return myFunction()">
+                <div class="userForm">
+                    <input id="name" class="details" type="text" placeholder="Name..." required>
+                    <input id="email" class="details" type="email" placeholder="Email..." required>
+                </div>
+                <div class="userForm">
+                    <input id="message" class="details" type="text" placeholder="Your message here..." required>
+                </div>
+                <button id="bttn1" type="submit" onclick="myFunction()">Submit</button>
+            </form>
+        </div>
+
+    </div>
     
 </body>
 </html>
