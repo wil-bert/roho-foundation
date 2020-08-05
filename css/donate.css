@@ -59,3 +59,14 @@ header {
   grid-template-columns: 1fr 2.5fr;
   align-items: center;
 }
+
+#gif {
+  width: 200px;
+  position: fixed;
+  left: -200px;
+  z-index: -1;
+  animation-name: donatefunds;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
