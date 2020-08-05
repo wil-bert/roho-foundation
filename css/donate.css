@@ -11,7 +11,7 @@ li {
     display: flex;
     float: left;
   }
- 
+
 .navigation-link:before {
 	content: "";
 	position: absolute;
@@ -35,4 +35,27 @@ li {
 .navigation-link:before {
 	-webkit-transition: width .2s ease-in-out;
 	transition: width .2s ease-in-out;
+}
+:root {
+  font-family: Impact, Charcoal, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 5px;
+  background-color: #60C290;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  align-items: center;
 }
