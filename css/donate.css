@@ -7,10 +7,7 @@
 	-webkit-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-li {
-    display: flex;
-    float: left;
-  }
+
 
 .navigation-link:before {
 	content: "";
@@ -35,90 +32,4 @@ li {
 .navigation-link:before {
 	-webkit-transition: width .2s ease-in-out;
 	transition: width .2s ease-in-out;
-}
-:root {
-  font-family: Impact, Charcoal, sans-serif;
-}
-body {
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-}
-
-header {
-  padding: 5px;
-  background-color: #60C290;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
-  align-items: center;
-}
-
-#gif {
-  width: 200px;
-  position: fixed;
-  left: -200px;
-  z-index: -1;
-  animation-name: donatefunds;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-#blockImage {
-  width: 75px;
-  height: 75px;
-  border-radius: 180px;
-  border: 2px solid white;
-  justify-self: end;
-}
-
-#blockTitle {
-  padding-left: 5px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-}
-
-#blockTitle #name {
-	font-family: "Lucida Console", Courier, monospace;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-#blockTitle #topic {
-  padding-left: 108px;
-  font-weight: 700;
-}
-#paypalLogo {
-  padding-top: 60px;
-  padding-bottom: 10px;
-  width: 300px;
-  align-self: center;
-}
-#contact-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-#contact-form input,
-#contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px #ddd solid;
-}
-
-#contact-form textarea {
-  height: 200px;
-}
-
-#contact-form input:focus,
-#contact-form textarea:focus {
-  outline: none;
-  border-color: #f7c08a;
 }
