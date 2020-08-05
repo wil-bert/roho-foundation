@@ -1,3 +1,46 @@
+a:hover,
+a:active {
+	text-decoration: none;
+}
+.ib {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: top;
+}
+.ul-reset {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.wrapper {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.header {
+	text-align: center;
+}
+.navigation {
+	background-color: #eee;
+	font-weight: 700;
+}
+
+.navigation-list {
+	font-size: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navigation-item {
+	font-size: 1.2rem;
+}
+
 .navigation-link {
 	display: block;
 	position: relative;
@@ -7,11 +50,7 @@
 	-webkit-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-li {
-    display: flex;
-    float: left;
-  }
- 
+
 .navigation-link:before {
 	content: "";
 	position: absolute;
