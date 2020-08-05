@@ -323,3 +323,16 @@ footer .top_footer .part4 .gallery {
 	margin-right: -5px;
 
 }
+.container{
+	background-color: lightgrey;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.row{
+	text-align: center;
+}
+
