@@ -105,3 +105,10 @@ a:active {
     background-color: transparent;
     margin: 10px;
 }
+#logo{
+	width: 20%;
+	height: 20%;
+}
+h1, h2{
+	color: magenta;
+}
