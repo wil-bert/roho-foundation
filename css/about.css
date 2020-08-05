@@ -11,7 +11,7 @@ li {
     display: flex;
     float: left;
   }
- 
+
 .navigation-link:before {
 	content: "";
 	position: absolute;
@@ -35,4 +35,17 @@ li {
 .navigation-link:before {
 	-webkit-transition: width .2s ease-in-out;
 	transition: width .2s ease-in-out;
+}
+.container{
+	background-image: url(/images/about4.jpg);
+	height: 100vh;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.row{
+	text-align: center;
 }
