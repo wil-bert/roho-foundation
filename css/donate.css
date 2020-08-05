@@ -95,3 +95,9 @@ header {
   padding-left: 108px;
   font-weight: 700;
 }
+#paypalLogo {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  width: 300px;
+  align-self: center;
+}
