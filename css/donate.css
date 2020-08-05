@@ -316,10 +316,195 @@ footer .top_footer .part4 img {
 
 footer .top_footer .part4 .gallery {
 
-	margin-top:43px;	
+	margin-top:43px;
 
 	margin-left: -5px;
 
 	margin-right: -5px;
 
+}
+:root {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 5px;
+  background-color: #60C290;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  align-items: center;
+}
+
+#blockImage {
+  width: 75px;
+  height: 75px;
+  border-radius: 180px;
+  border: 2px solid white;
+  justify-self: end;
+}
+
+#blockTitle {
+  padding-left: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#blockTitle #name {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#blockTitle #topic {
+  padding-left: 108px;
+  font-weight: 700;
+}
+
+#gif {
+  width: 200px;
+  position: fixed;
+  left: -200px;
+  z-index: -1;
+  animation-name: runningAnimal;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes runningAnimal {
+  100% {
+    left: 1000px;
+  }
+}
+
+main {
+  position: relative;
+  padding-top: 125px;
+  z-index: 1;
+}
+
+#siteDescription {
+  margin: 0 auto;
+  width: 70%;
+  text-align: justify;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 10px;
+}
+
+#paypalLogo {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 300px;
+  align-self: center;
+}
+
+#paypalVideo {
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 250px;
+  height: 141px;
+  align-self: center;
+}
+
+#ctaButton {
+  margin: 10px 10px 100px 10px;
+  padding: 20px;
+  background-color: #60C290;
+  border: 0px;
+  border-radius: 50px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  align-self: center;
+}
+
+#ctaButton a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  margin-bottom: 10px;
+  text-align: center;
+  color: lightgray;
+}
+
+
+@media screen and (min-width: 750px) {
+  #pageDescribe {
+    width: 500px;
+  }
+  #paypalVideo {
+    width: 400px;
+    height: 225px;
+  }
+  #gif {
+  animation-duration: 12s;
+  }
+  @keyframes runningAnimal {
+    100% {
+      left: 2000px;
+    }
+  }
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+#main-footer a{
+  color:#fff;
+}
+
+#main-footer a:hover{
+  color:#f7c08a;
 }
