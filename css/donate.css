@@ -25,6 +25,8 @@ a:active {
 }
 .header {
 	text-align: center;
+	background-color:lightgoldenrodyellow;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .navigation {
 	background-color: #eee;
@@ -316,7 +318,7 @@ footer .top_footer .part4 img {
 
 footer .top_footer .part4 .gallery {
 
-	margin-top:43px;	
+	margin-top:43px;
 
 	margin-left: -5px;
 

@@ -30,6 +30,8 @@ a:active {
 }
 .header {
 	text-align: center;
+	background-color:lightgoldenrodyellow;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .navigation {
 	background-color: #eee;
@@ -88,7 +90,7 @@ a:active {
     max-width: 500px;
     height: 300px;
     margin: 5em auto .5em auto;
-   
+
   }
   .css-slideshow figure{
     margin: 0;
@@ -151,7 +153,7 @@ a:active {
   figure:nth-child(8) {
     animation: xfade 48s 0s infinite;
   }
-  
+
   @keyframes xfade{
     0%{
       opacity: 1;
@@ -255,7 +257,7 @@ a:active {
 
 .welcome_item {
 
-	position: relative;	
+	position: relative;
 
 }
 
@@ -604,7 +606,7 @@ footer .top_footer .part4 img {
 
 footer .top_footer .part4 .gallery {
 
-	margin-top:43px;	
+	margin-top:43px;
 
 	margin-left: -5px;
 
