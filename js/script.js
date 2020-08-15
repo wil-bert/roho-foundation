@@ -11,6 +11,5 @@ var myFunction= function(){
         return false;
     } else {
         alert(" Thank you "+ username.value +"for reaching out. Message received.");
-    };
-  
+    }
   };
