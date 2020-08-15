@@ -84,3 +84,14 @@ a:active {
 h1, h2{
 	color: magenta;
 }
+.container{
+	background-image: url(/images/donation.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	align-content: center;
+}
